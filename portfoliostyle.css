@@ -1,23 +1,12 @@
-
-/*--------------- basic styling --------------- */
-html, body {
+body,
+html {
     width: 100%;
     height: 100%;
-    font-family: "Roboto Mono" !important;
+        font-family: "Roboto Mono" !important;
     background: #0f0f0f !important;
     color: #fff !important;
 }
 
-.whitespace {
-    width: 100%;
-    height: 100px;
-}
-
-@media(max-width: 768px) {
-    .whitespace {
-          display: none;
-    }
-}
 
 .lead {
     font-size: 18px;
@@ -25,7 +14,30 @@ html, body {
 }
 
 
-/*--------------- typewriter effect --------------- */
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+}
+
+.content-section-b {
+    padding: 50px 0;
+
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+}
 .line {
     width: 24em;
     top: 50%;
@@ -38,8 +50,8 @@ html, body {
 }
 
 .anim-typewriter {
-    animation: typewriter 4s steps(40) 1s 1 normal both,
-    blinkTextCussor 500ms steps(40) infinite normal;
+    animation: typewriter 4s steps(36) 1s 1 normal both,
+    blinkTextCussor 500ms steps(36) infinite normal;
 }
 
 @keyframes typewriter {
