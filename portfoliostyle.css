@@ -5,6 +5,7 @@ html {
         font-family: "Roboto Mono" !important;
     background: #0f0f0f !important;
     color: #fff !important;
+
 }
 
 
@@ -176,7 +177,7 @@ nav #menu li a:hover {
 #resize #menu {
     height: 90px;
     position: absolute;
-    left: 45%;
+    left: 42.5%;
     transform: translateX(-40%);
     text-align: center;
     display: table-cell;
@@ -276,8 +277,8 @@ nav #menu li a:hover {
     z-index: 0;
     text-decoration: none;
     text-shadow: 0;
-    width: 13px;
-    height: 13px;
+    width: 18px;
+    height: 18px;
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
